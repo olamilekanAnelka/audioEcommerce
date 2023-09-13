@@ -1,0 +1,178 @@
+/*the stling for the homepage header for tab and mobile*/
+.md__header{
+    display: none;
+    
+}
+
+@media screen and (max-width: 1024px){
+    .md__header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 80vh;
+        width: 100%;
+
+        background-image: url(https://res.cloudinary.com/ilove2support/image/upload/v1679926286/ecommerce/earphone_kvsxmd.png);
+        background-size: cover;
+    }
+
+    .header__container{
+        width: 100%;
+    }
+    .md__header p{
+        font-size: 20px;
+        font-weight: 300;
+    }
+    .md__header h1{
+        font-size: 55px;
+        font-weight: 500;
+        
+    }
+
+    
+  }
+  
+  @media screen and (max-width: 650PX){
+    .md__header{
+        height: 70vh;
+    }
+
+    
+  }
+
+
+  /** styling for shoping card */
+  .home__shopbox-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home__shopbox{
+    width: 33%;
+    height: 20vh;
+    background: var(--color-gray);
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    overflow: visible; 
+    position: relative
+  }
+
+
+  .home__shopbox img {
+    margin-top: -7rem;
+    color: var(--color-black);
+  }
+
+  @media screen and (max-width: 650PX){
+    .home__shopbox-container {
+        flex-direction: column;
+    }
+    
+    .home__shopbox{
+        width: 80%;
+        margin: 30px 0;
+    }
+
+    .home__shopbox img {
+        margin-top: -5rem;
+    }
+}
+
+
+
+
+/** the zx9 speaker scetion */
+.zx9__img-container{
+    margin-top: 8rem;
+}
+.zx9__p{
+    width: 60%;
+    font-weight: 500;
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+@media screen and (max-width: 650PX){
+  .zx9__img-container{
+    margin-top: 2rem;
+  }
+  .zx9__container{
+    padding-bottom: 5rem;
+  } 
+}
+
+
+/** the zx7 speaker section*/
+.zx7__container{
+    margin-top: 5rem;
+}
+
+/** the yx1 earphones section*/
+.yx1__container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.yx1__card{
+  width: 49%;
+  height: 50vh;
+  margin-top: 3rem;
+}
+
+@media screen and (max-width: 790PX){
+  .yx1__container{
+    margin-top: 3rem;
+  }
+  .yx1__card{
+    width: 100%;
+    height: 30vh;
+    overflow: hidden;
+    margin-top: 0;
+  }
+}
+
+/* audio gear section */
+.audio__gear-container{
+  height: 60vh;
+  margin: 5rem 0;
+  
+}
+
+.audio__gear-img{
+  background-image: url(https://res.cloudinary.com/ilove2support/image/upload/v1679926286/ecommerce/customer_n2xw6g.png);
+  background-size: cover;
+  overflow: hidden;
+}
+
+.audio__gear-container h1{
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 3rem;
+}
+
+.audio__gear-container p{
+  width: 75%;
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+@media screen and (max-width: 790PX){
+  .audio__gear-container{
+    height: auto;
+  }
+  .audio__gear-container p{
+    width: 100%;
+  }
+  .audio__gear-img {
+    height: 40vh;
+    margin: 3rem 0;
+  }
+}
