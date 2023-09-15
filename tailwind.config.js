@@ -7,6 +7,9 @@ module.exports = {
     extend: {
       height: {
         '80vh': '80vh',
+        '60vh': '60vh',
+        '50vh': '50vh',
+        '30vh': '30vh',
       },
       colors: {
         appbrown: '#d77c47',
